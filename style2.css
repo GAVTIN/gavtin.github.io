@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,p{
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    letter-spacing: -0.02rem;
+    font-weight: 70;
+}
+label p{
+    letter-spacing: 0.05rem;
+}
+
+*{
+    color: #f3f3f3;
+}
+body{
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    z-index: -1;
+    height: 100%;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#description{
+    font-style: italic;
+    font-stretch: expanded;
+    margin-bottom: 3rem;
+}
+
+.container{
+    position: relative;
+    background-color: #1b1b32;
+    z-index: 12;
+    margin: 0.25rem 0.25rem;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0.8;
+    padding: 1rem 2.5rem;
+    border-radius: 7px;
+    
+}
+
+#survey-form p{
+    text-align: left;
+    border-color: #80bdff;
+    
+}
+
+#title{
+    padding-top: 2rem;
+    border-radius: 5px;
+}
+
+#name, #email, #number, #dropdown, #most-like{
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: whitesmoke;
+}
+
+.comment{
+    position: relative;
+    width: 100%;
+    min-height: 120px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    
+}
+
+option{
+    background-color: lightgray;
+}
+
+button{
+    position: relative;
+    width: 100%;
+    background-color: #37af65;
+    padding: 0.75rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    letter-spacing: 0.02rem;
+    margin-top: 15px;
+}
